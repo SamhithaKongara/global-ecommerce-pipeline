@@ -1,0 +1,17 @@
+{
+    "name": "CopySalesData",
+    "properties": {
+        "activities": [
+            {
+                "name": "CopyFromBlobToSynapse",
+                "type": "Copy",
+                "inputs": [{ "referenceName": "BlobSalesDataset", "type": "DatasetReference" }],
+                "outputs": [{ "referenceName": "SynapseSalesDataset", "type": "DatasetReference" }],
+                "typeProperties": {
+                    "source": { "type": "DelimitedTextSource" },
+                    "sink": { "type": "SqlSink" }
+                }
+            }
+        ]
+    }
+}
