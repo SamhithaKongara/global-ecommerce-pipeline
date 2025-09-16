@@ -1,26 +1,31 @@
-# Global E-Commerce Sales Data Pipeline
+# 🌍 Global E-Commerce Sales Data Pipeline
 
-## Objective
-Build a cloud-based ETL/ELT pipeline to ingest, transform, and store global e-commerce sales data for analytics and reporting.
+## 📌 Project Overview
+This project demonstrates an **end-to-end data engineering solution** for an e-commerce company.  
+It covers **data ingestion, transformation, storage, and visualization** using Azure cloud services.
 
-## Technologies Used
-- Azure Data Factory (ADF)
-- Azure Data Lake Storage Gen2 (ADLS)
-- Azure Synapse Analytics
-- SSIS
-- Databricks (PySpark)
-- Power BI
+## ⚙️ Tech Stack
+- **Azure Data Factory (ADF)** → Orchestrating ETL pipelines  
+- **Azure Data Lake Storage Gen2** → Storing raw and curated data  
+- **Azure Synapse Analytics** → Data warehouse and reporting layer  
+- **Databricks (PySpark)** → Data transformations at scale  
+- **Power BI** → Interactive dashboards & KPIs  
 
-## Project Description
-- Created an **ADF pipeline** to extract sales data from CSV and JSON API sources into **Azure Data Lake**.
-- Transformed and enriched data using **Databricks PySpark notebooks**.
-- Loaded transformed data into **Azure Synapse Analytics** using incremental load strategies.
-- Built a **Power BI dashboard** with drill-through features, regional KPIs, and sales trend analysis.
+## 🚀 Workflow
+1. **Data Ingestion** – ADF pipelines copy raw sales data (CSV/API) into Azure Data Lake.  
+2. **Data Transformation** – PySpark in Databricks cleans and enriches data.  
+3. **Data Storage** – Processed data stored in Synapse with **star schema modeling**.  
+4. **Visualization** – Power BI dashboards show KPIs, regional trends, and sales insights.  
 
-## Outcome / Skills Demonstrated
-- End-to-end ETL workflow in Azure cloud.
-- Handling large datasets and incremental loads.
-- Created interactive dashboards for decision-making.
+## 📊 Dashboard Preview
+![E-commerce Dashboard](dashboards/ecommerce_dashboard.png)
+
+## ✅ Skills Demonstrated
+- Cloud-based **ETL pipeline design**  
+- **Incremental data loads** & performance optimization  
+- **Data warehouse modeling (Star schema)**  
+- Building **Power BI dashboards** with KPIs  
+
 
 
 
