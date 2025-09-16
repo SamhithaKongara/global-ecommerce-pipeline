@@ -28,7 +28,7 @@ It includes **data ingestion, transformation, storage, and visualization** using
 ## 📂 Code
 All implementation files are in the `code/` folder:  
 - `etl_pipeline.sql` → SQL scripts for staging and fact table transformations  
-- `data_transformation_pyspark.ipynb` → PySpark transformations  
+- `data_transformation_pyspark.py` → PySpark transformations  
 - `adf_pipeline.json` → Sample ADF copy pipeline configuration  
 
 ## 📊 Dashboard Preview
