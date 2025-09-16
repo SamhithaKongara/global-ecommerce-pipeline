@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 This project demonstrates an **end-to-end data engineering solution** for an e-commerce company.  
-It covers **data ingestion, transformation, storage, and visualization** using Azure cloud services.
+It includes **data ingestion, transformation, storage, and visualization** using Azure cloud services.
 
 ## ⚙️ Tech Stack
 - **Azure Data Factory (ADF)** → Orchestrating ETL pipelines  
@@ -12,19 +12,29 @@ It covers **data ingestion, transformation, storage, and visualization** using A
 - **Power BI** → Interactive dashboards & KPIs  
 
 ## 🚀 Workflow
-1. **Data Ingestion** – ADF pipelines copy raw sales data (CSV/API) into Azure Data Lake.  
-2. **Data Transformation** – PySpark in Databricks cleans and enriches data.  
-3. **Data Storage** – Processed data stored in Synapse with **star schema modeling**.  
-4. **Visualization** – Power BI dashboards show KPIs, regional trends, and sales insights.  
+1. **Data Ingestion**  
+   - Raw sales data ingested from CSV/API into Azure Data Lake.  
+   - ADF pipelines copy data into staging.  
+
+2. **Data Transformation**  
+   - PySpark used in Databricks for cleaning and enrichment.  
+   - SQL transformations applied in Synapse for fact/dimension modeling.  
+
+3. **Data Storage**  
+   - Data stored in a **star schema** in Synapse Analytics.  
+
+4. **Visualization**  
+   - Power BI dashboards showing sales KPIs by region, trends, and customer insights.  
 
 ## 📊 Dashboard Preview
 ![E-commerce Dashboard](dashboards/ecommerce_dashboard.png)
 
 ## ✅ Skills Demonstrated
 - Cloud-based **ETL pipeline design**  
-- **Incremental data loads** & performance optimization  
+- **Incremental loads** & performance optimization  
 - **Data warehouse modeling (Star schema)**  
 - Building **Power BI dashboards** with KPIs  
+
 
 
 
